@@ -1,8 +1,8 @@
 ## 테스트 픽스처 메소드 추가 지원
 
-!['JUnit3 Fixture'](../../assets/fixture.png)
+!['JUnit3 Fixture'](../assets/fixture.png)
 
-!['Jest Fixture'](../../assets/jestfixture.png)
+!['Jest Fixture'](../assets/jestfixture.png)
 
 ```js
 beforeAll(() => console.log('outer - beforeAll'));
@@ -34,3 +34,5 @@ describe('Scoped / Nested block', () => {
 // inner - afterAll
 // outer - afterAll
 ```
+
+> If it should pass with deep equality, replace "toBe" with "toStrictEqual"

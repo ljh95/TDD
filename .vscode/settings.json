@@ -5,7 +5,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#00aead",
+    "titleBar.activeBackground": "#0faae2",
     "titleBar.activeForeground": "#ffffff"
   },
   "eslint.format.enable": false,
