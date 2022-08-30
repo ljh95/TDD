@@ -9,9 +9,9 @@ describe('all', () => {
 
   afterEach(() => {});
 
-  // test.skip('should Account', () => {
-  //   throw new Error('should Account');
-  // });
+  test('should Account', () => {
+    expect(account).toBeTruthy();
+  });
   test('should getBalance', () => {
     expect(10000).toBe(account.getBalance());
   });

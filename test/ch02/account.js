@@ -1,9 +1,15 @@
 export class Account {
-  constructor(i) {}
+  constructor(payment) {
+    this.payment = payment;
+  }
 
   getBalance() {
-    return 0;
+    return this.payment;
   }
-  withdraw() {}
-  deposit() {}
+  withdraw(money) {
+    this.payment -= money;
+  }
+  deposit(money) {
+    this.payment += money;
+  }
 }
