@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#00aead",
+    "titleBar.activeForeground": "#ffffff"
+  },
+  "eslint.format.enable": false,
+  "reactSnippets.settings.prettierEnabled": true,
+  "prettier.prettierPath": "",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true
+}
